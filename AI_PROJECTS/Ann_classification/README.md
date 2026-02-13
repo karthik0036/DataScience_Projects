@@ -1,55 +1,43 @@
-📌 Project Overview
+## 📌 Project Overview
 
-Developed an Artificial Neural Network (ANN) model using TensorFlow/Keras to predict customer churn probability.
+- Developed an **Artificial Neural Network (ANN)** model using **TensorFlow/Keras** to predict customer churn probability.
 
-Implemented a complete data preprocessing pipeline, including:
+- Implemented a complete data preprocessing pipeline, including:
+  - Label Encoding for Gender
+  - One-Hot Encoding for Geography
+  - Feature Scaling using StandardScaler
 
-Label Encoding for Gender
+- Trained and saved the ANN model as a `.h5` file for production usage.
 
-One-Hot Encoding for Geography
+- Built an interactive web application using **Streamlit** for real-time churn prediction.
 
-Feature Scaling using StandardScaler
+- Designed user-friendly UI components such as sliders, dropdowns, and input fields for dynamic customer data entry.
 
-Trained and saved the ANN model as a .h5 file for production usage.
+- Integrated saved preprocessing objects (`scaler.pkl`, `label_encoder_gender.pkl`, `one_hot_encoder_geo.pkl`) for consistent prediction pipeline.
 
-Built an interactive web application using Streamlit for real-time churn prediction.
+- Implemented probability-based churn classification with threshold logic (0.5 cutoff).
 
-Designed user-friendly UI components such as sliders, dropdowns, and input fields for dynamic customer data entry.
+- Structured the project to simulate a real-world ML deployment workflow:
+  - Model training
+  - Model serialization
+  - Preprocessing persistence
+  - Frontend deployment
 
-Integrated saved preprocessing objects (scaler.pkl, label_encoder_gender.pkl, one_hot_encoder_geo.pkl) for consistent prediction pipeline.
+- Used **NumPy, Pandas, Scikit-learn, TensorFlow, and Streamlit** throughout the ML lifecycle.
 
-Implemented probability-based churn classification with threshold logic (0.5 cutoff).
+- Applied feature engineering on banking dataset attributes such as Credit Score, Balance, Tenure, Active Membership, etc.
 
-Structured the project to simulate a real-world ML deployment workflow:
+- Built an end-to-end pipeline from model training to user-facing prediction system.
 
-Model training
+---
 
-Model serialization
+## 🔹 Technical Skills Demonstrated
 
-Preprocessing persistence
-
-Frontend deployment
-
-Used NumPy, Pandas, Scikit-learn, TensorFlow, and Streamlit throughout the ML lifecycle.
-
-Applied feature engineering on banking dataset attributes such as Credit Score, Balance, Tenure, Active Membership, etc.
-
-Built an end-to-end pipeline from model training to user-facing prediction system.
-
-🔹 Technical Skills Demonstrated
-
-Deep Learning (ANN)
-
-TensorFlow / Keras
-
-Model Deployment
-
-Feature Engineering
-
-Data Preprocessing
-
-Pickle Model Serialization
-
-Streamlit App Development
-
-End-to-End Machine Learning Workflow
+- Deep Learning (ANN)
+- TensorFlow / Keras
+- Model Deployment
+- Feature Engineering
+- Data Preprocessing
+- Pickle Model Serialization
+- Streamlit App Development
+- End-to-End Machine Learning Workflow
