@@ -12,7 +12,7 @@
 
 - Train-Test Split
 
--vBuilt and trained both LSTM and GRU models using TensorFlow/Keras.
+- Built and trained both LSTM and GRU models using TensorFlow/Keras.
 
 - Applied Dropout Regularization to prevent overfitting and improve generalization.
 
@@ -25,3 +25,4 @@
 - Comparative Analysis between LSTM and GRU
 
 - Structured the project for modular implementation and reproducibility.
+
