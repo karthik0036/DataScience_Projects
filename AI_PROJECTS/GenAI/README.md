@@ -1,52 +1,137 @@
-# 🚀 Generative AI Projects
+# 🚀 Generative AI Projects Portfolio
 
-This repository contains a collection of hands-on Generative AI projects covering LLMs, RAG, agents, and advanced AI workflows.
-
----
-
-## 📂 Project Structure
-
-### 🔹 Core Concepts
-- 1. LangChain Basics
-- 2. OpenAI Integration
-- 3. Ollama (Local LLMs)
-- 4. LCEL (LangChain Expression Language)
-
-### 🔹 Chatbots & QA Systems
-- 7. Simple QA Chatbot
-- 8. RAG Document QA
-- 9. RAG with Chat History
-- 11. Chat with SQL
-- 21. QA with Graph DB (Neo4j)
-
-### 🔹 Advanced AI Systems
-- 10. Search Engine Tools & Agents
-- 16. Code Assistant
-- 19. CrewAI Multi-Agent System
-- 22. LangGraph Workflows
-
-### 🔹 Specialized Use Cases
-- 12. Text Summarization
-- 13. Math Solver
-- 20. Hybrid Search
-- 18. NVIDIA NIM Integration
-
-### 🔹 Data & Storage
-- 15. Cassandra / Astra DB Integration
-
-### 🔹 Model Training
-- 17. Fine Tuning
+This repository showcases multiple hands-on Generative AI projects built using LLMs, RAG pipelines, agents, and advanced AI workflows.
 
 ---
 
-## 🛠 Tech Stack
+## 🔹 1. RAG-based Document QA System
 
-- Python
-- LangChain / LangGraph
-- OpenAI / Groq / Ollama
-- Vector Databases (Astra DB, FAISS)
-- Neo4j (Graph DB)
-- Streamlit
+**Source Folders:**  
+`8.RAG_Documen_QA`, `9.RAG-DOC-CHATHistory`, Vector DB modules
+
+### 📌 Overview
+Built a Retrieval-Augmented Generation (RAG) system that answers questions from documents using embeddings and vector search.
+
+### 🛠 Concepts Covered
+- Embeddings
+- Vector Databases (FAISS, Chroma)
+- Retrieval-Augmented Generation (RAG)
+
+### 🎯 Key Highlights
+- Document ingestion and chunking
+- Semantic search using vector similarity
+- Context-aware answer generation
 
 ---
 
+## 🔹 2. Conversational Chatbot with Memory
+
+**Source Folders:**  
+`5.ConvoHistory-llm`, `7.Simple-QA-Chatbot`
+
+### 📌 Overview
+Developed a chatbot capable of maintaining conversation context using memory mechanisms.
+
+### 🛠 Concepts Covered
+- Chat history handling
+- Memory types (buffer, summary)
+- Prompt engineering
+
+### 🎯 Key Highlights
+- Context-aware conversations
+- Stateful interaction with users
+- Improved response relevance using memory
+
+---
+
+## 🔹 3. SQL + LLM Chat Assistant
+
+**Source Folder:**  
+`11.Chat-QA-Sql`
+
+### 📌 Overview
+Built an AI assistant that converts natural language queries into SQL and retrieves results from a database.
+
+### 🛠 Concepts Covered
+- Natural Language → SQL generation
+- Database schema understanding
+- Query execution
+
+### 🎯 Key Highlights
+- Automated query generation
+- Seamless interaction with structured data
+- Reduces need for manual SQL writing
+
+---
+
+## 🔹 4. Graph-based QA System (Neo4j)
+
+**Source Folder:**  
+`21.QA_with_GraphDB`
+
+### 📌 Overview
+Implemented a question-answering system using a graph database for relationship-based reasoning.
+
+### 🛠 Concepts Covered
+- Knowledge graphs
+- Cypher query generation
+- Graph-based reasoning
+
+### 🎯 Key Highlights
+- Efficient handling of connected data
+- Better reasoning over relationships
+- Dynamic query generation
+
+---
+
+## 🔹 5. Multi-Agent System (CrewAI / LangGraph)
+
+**Source Folders:**  
+`19.CrewAi`, `22.Langraph`
+
+### 📌 Overview
+Designed a multi-agent system where multiple AI agents collaborate to complete tasks.
+
+### 🛠 Concepts Covered
+- Agent-based architecture
+- Tool usage
+- Task orchestration
+
+### 🎯 Key Highlights
+- Autonomous agent collaboration
+- Task delegation and coordination
+- Modular and scalable workflows
+
+---
+
+## 🔹 6. Code Assistant / Tool-Using Agent
+
+**Source Folders:**  
+`16.CodeAssistant`, `10.SearchEngine_Tools-Agents`
+
+### 📌 Overview
+Built an intelligent assistant capable of using external tools and APIs to enhance responses.
+
+### 🛠 Concepts Covered
+- Tool calling
+- Function calling
+- External API integration
+
+### 🎯 Key Highlights
+- Dynamic tool selection
+- Real-world task execution
+- Enhanced LLM capabilities with external data
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Generative AI Application Development  
+- Retrieval-Augmented Generation (RAG)  
+- Agent-based Systems  
+- Prompt Engineering  
+- Vector Databases & Embeddings  
+- Graph Databases  
+- LLM Integration  
+
+---
