@@ -1,1 +1,1 @@
-![Capstone Dashboard](AI_PROJECTS/LLM_PROJECTS/Screenshot (518).png)
+![Capstone Dashboard](Screenshot%20(518).png)
