@@ -3,3 +3,11 @@
 *.env
 GenAI/.env
 
+# Model files
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+
+.gradio/
